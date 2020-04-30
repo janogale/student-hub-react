@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "a9eef50529d0995f80ea",
-    "url": "/student-hub-react/static/css/main.7b7bd2da.chunk.css"
+    "revision": "b96b52e1897580594769",
+    "url": "/student-hub-react/static/css/main.6b21d50b.chunk.css"
   },
   {
-    "revision": "a9eef50529d0995f80ea",
+    "revision": "b96b52e1897580594769",
     "url": "/student-hub-react/static/js/main.2bd6fe84.chunk.js"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/student-hub-react/static/js/2.6377287e.chunk.js"
   },
   {
-    "revision": "ffc28b364a818d72a97aa5c0ca380981",
+    "revision": "40b53fa6121daa4443917e607a7b1f7b",
     "url": "/student-hub-react/index.html"
   }
 ];
