@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
+
+import { BrowserRouter, Route } from "react-router-dom";
+
 import Table from "./Table";
 import Form from "./Form";
 import "./app.css";
 import Header from "./components/Header";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import Alert from "./components/Alert";
 
 function App() {
@@ -48,7 +53,6 @@ function App() {
 
   return (
     <>
-      <Header />
       <div className="container">
         {toggleAlert && <Alert alert={alert} />}
         <p>List of the Students</p>
@@ -64,4 +68,15 @@ function App() {
   );
 }
 
-export default App;
+const Layout = () => {
+  return (
+    <BrowserRouter>
+      <Header />
+
+      <Route path="/" exact component={App} />
+      <Route path="/about" exact component={About} />
+      <Route path="/contact" exact component={Contact} />
+    </BrowserRouter>
+  );
+};
+export default Layout;

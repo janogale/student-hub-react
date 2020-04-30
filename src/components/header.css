@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #93b8b8;
+  background-color: #5c8585;
   margin-bottom: 30px;
 }
 
@@ -34,4 +34,10 @@
   font-weight: 800;
   justify-self: flex-start;
   padding-left: 30px;
+  color: #f1f1f1;
+}
+
+.subtitle {
+  display: none;
+  color: #f1f1f1;
 }
