@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #5c8585;
+  background-color: #28a745;
   margin-bottom: 30px;
 }
 
@@ -17,7 +17,7 @@
 .header ul li {
   margin: 0 20px;
   padding: 3px 10px;
-  background-color: teal;
+  background-color: #289943;
   color: #fff;
 }
 
