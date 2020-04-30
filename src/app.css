@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.wrapper div {
+  flex: 1 0 auto;
+}
+
+.wrapper .div-form {
+  margin-top: -60px;
+  flex: 0 1 30rem;
+  padding-left: 15px;
+  border-left: 2px solid #5eec8d;
+  background: rgb(238, 237, 237);
+  border-radius: 10px;
+  height: 480px;
+  padding: 50px;
+}
+
+.wrapper .div-form input {
+  background-color: #f6f6f6;
+}
+
+.alert {
+  display: absolute;
+  background: rgb(87, 49, 49);
+  color: red;
+  text-align: center;
+}
+
+.alert h5 {
+  color: red;
+}
