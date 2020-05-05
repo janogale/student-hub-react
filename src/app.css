@@ -1,3 +1,6 @@
+.container {
+  transition: all 0.5s;
+}
 .wrapper {
   display: flex;
   justify-content: space-around;
